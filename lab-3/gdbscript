@@ -1,0 +1,16 @@
+target remote :1234
+b main
+c
+p number
+p &number
+p result
+p &number
+b 12
+c
+p number
+p &number
+p result
+p &result
+
+p fibonacci(9)
+p fibonacci(10)
